@@ -1,489 +1,501 @@
+
 <!DOCTYPE html>
+
 <html lang="en" class="no-js">
-    <!-- Begin Head -->
-    <head>
-        <!-- Basic -->
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Sharing Lease</title>
-        <meta name="keywords" content="online sale channel to increase sales" />
-        <meta name="description" content="Sharing Lease">
-        <meta http-equiv="Content-Security-Policy" content="">
+<!-- Begin Head -->
+<head>
+<!-- Basic -->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Sharing Lease</title>
+<meta name="keywords" content="online sale channel to increase sales" />
+<meta name="description" content="Sharing Lease">
+<meta http-equiv="Content-Security-Policy" content="">
 
-        <!-- Web Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <!-- Vendor Styles -->
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/animate.css" rel="stylesheet" type="text/css"/>
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/themify.css" rel="stylesheet" type="text/css"/>
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<!-- Web Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<!-- Vendor Styles -->
+<link href="https://edperf.github.io/website-sharing/assets/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://edperf.github.io/website-sharing/assets/static/css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="https://edperf.github.io/website-sharing/assets/static/css/themify.css" rel="stylesheet" type="text/css"/>
+<link href="https://edperf.github.io/website-sharing/assets/static/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://edperf.github.io/website-sharing/assets/static/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 
-<link href="https://edperf.github.io/website-sharing/assets/static/css/landing.css" rel="stylesheet" type="text/css"/>
+<!-- Theme Styles -->
+<link href="https://edperf.github.io/website-sharing/assets/static/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://edperf.github.io/website-sharing/assets/static/css/global.css" rel="stylesheet" type="text/css"/>
 
-        <!-- Theme Styles -->
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="https://edperf.github.io/website-sharing/assets/static/css/global.css" rel="stylesheet" type="text/css"/>
+<!-- Favicon -->
+<link rel="shortcut icon" href="http://oulthdsdy.bkt.clouddn.com/shortcut.png" type="image/png">
+<link rel="apple-touch-icon" href="http://oulthdsdy.bkt.clouddn.com/top.png">
+<style>
+#weixin-tip{display:none;position:fixed;left:0;top:0;background:rgba(0,0,0,0.8);filter:alpha(opacity=80);width:100%;height:100%;z-index:100;}
+#weixin-tip p{text-align:center;margin-top:10%;padding:0 5%;position:relative;}
+#weixin-tip .close{color:#fff;padding:5px;font:bold 20px/24px simsun;text-shadow:0 1px 0 #ddd;position:absolute;top:0;left:5%;}
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="http://oulthdsdy.bkt.clouddn.com/shortcut.png" type="image/png">
-        <link rel="apple-touch-icon" href="http://oulthdsdy.bkt.clouddn.com/top.png">
-        <style>
-		
-		
 .store-badge-div {
-  text-align: right; }
+text-align: right; }
 .store-badge-div-2 {
-  text-align: left; }
+text-align: left; }
 .store-badge {
-  max-width: 225px;
-  margin: 5px 0px; }
+max-width: 225px;
+margin: 5px 0px; }
 @media (max-width: 768px) {
-  .store-badge-div, .store-badge-div-2 {
-    text-align: center; }
-  .store-badge {
-    max-width: 50vw; } }
-         .dropdown{
-             display: none;
-         }
-         .main_content{
-             padding-top:170px;
-         }
-         .menuTitle{
-             color: white;
-         }
-         #login-form label{
-             color: white !important;
-         }
-         @media only screen and (max-width: 500px) {
-             .main_content{
-                 padding-top:70px;
-             }
-             .try_flinkboard{
-                 margin-bottom: 20px;
-             }
-             .talkto_expert{
-                 margin-bottom:50px;
-             }
-             .dropbtn {
-                 color:black;
-                 font-size: 16px;
-                 border: none;
-                 cursor: pointer;
-             }
-             /* The container <div> - needed to position the dropdown content */
-             .dropdown {
-                 position: relative;
-                 display: inline-block;
-                 margin-top: 72%;
-             }
-             /* Dropdown Content (Hidden by Default) */
-             .dropdown-content {
-                 display: none;
-                 position: absolute;
-                 background-color: #f9f9f9;
-                 min-width: 160px;
-                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                 z-index: 1;
-                 left: -128px;
-             }
-             /* Links inside the dropdown */
-             .dropdown-content a {
-                 color: black;
-                 padding: 12px 16px;
-                 text-decoration: none;
-                 display: block;
-                 border-bottom: 1px solid grey;
-             }
-             /* Change color of dropdown links on hover */
-             .dropdown-content a:hover {background-color: #f1f1f1}
-             /* Show the dropdown menu on hover */
-             .dropdown:hover .dropdown-content {
-                 display: block;
-             }
-             /* Change the background color of the dropdown button when the dropdown content is shown */
-             .dropdown:hover .dropbtn {
-                 background-color: #3e8e41;
-             }
-         }
+.store-badge-div, .store-badge-div-2 {
+text-align: center; }
+.store-badge {
+max-width: 50vw; } }
+ .dropdown{
+     display: none;
+ }
+ .main_content{
+     padding-top:170px;
+ }
+ .menuTitle{
+     color: white;
+ }
+ #login-form label{
+     color: white !important;
+ }
+ @media only screen and (max-width: 500px) {
+     .main_content{
+         padding-top:70px;
+     }
+     .try_flinkboard{
+         margin-bottom: 20px;
+     }
+     .talkto_expert{
+         margin-bottom:50px;
+     }
+     .dropbtn {
+         color:black;
+         font-size: 16px;
+         border: none;
+         cursor: pointer;
+     }
+     /* The container <div> - needed to position the dropdown content */
+     .dropdown {
+         position: relative;
+         display: inline-block;
+         margin-top: 72%;
+     }
+     /* Dropdown Content (Hidden by Default) */
+     .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f9f9f9;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         left: -128px;
+     }
+     /* Links inside the dropdown */
+     .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         border-bottom: 1px solid grey;
+     }
+     /* Change color of dropdown links on hover */
+     .dropdown-content a:hover {background-color: #f1f1f1}
+     /* Show the dropdown menu on hover */
+     .dropdown:hover .dropdown-content {
+         display: block;
+     }
+     /* Change the background color of the dropdown button when the dropdown content is shown */
+     .dropdown:hover .dropbtn {
+         background-color: #3e8e41;
+     }
+ }
 
-         .s-header__shrink .s-header__navbar {
-  box-shadow: 0 0 0.9375rem 0 rgba(34, 35, 36, 0.05);
+ .s-header__shrink .s-header__navbar {
+box-shadow: 0 0 0.9375rem 0 rgba(34, 35, 36, 0.05);
 }
 
 .s-header__shrink.-is-open .s-header__navbar {
-  background: transparent;
+background: transparent;
 }
 
 /* Logo */
 .s-header__shrink.-is-open .s-header__logo-img-default {
-  opacity: 1;
+opacity: 1;
 }
 
 .s-header__shrink.-is-open .s-header__logo-img-shrink {
-  opacity: 0;
+opacity: 0;
 }
 
 .s-header__shrink .s-header__navbar {
-  background: #fff;
-  opacity: 0;
+background: #fff;
+opacity: 0;
 }
 
 .s-header__shrink .s-header__logo-img-default {
-  opacity: 0;
+opacity: 0;
 }
 
 .s-header__shrink .s-header__logo-img-shrink {
-  opacity: 1;
+opacity: 1;
 }
 
 /* Trigger Icon */
 .s-header__shrink.-is-open .s-header__trigger-icon {
-  background: #fff;
+background: #fff;
 
 }
 
 .s-header__shrink .s-header__trigger-icon {
-  background: #222324;
+background: #222324;
 }
 
-         .s-header__logo {
-            position: relative;
-            z-index: 9999;
-            width: 100%;
-            height: auto;
-            float: left;
-          }
-          
-          .s-header__logo-link {
-            display: inline-block;
-            padding: 1rem 0;
-          }
-          
-          .s-header__logo-link:focus, .s-header__logo-link:hover {
-            text-decoration: none;
-          }
-          
-          .s-header__logo-img-default, .s-header__logo-img-shrink {
-            display: block;
-            transition-duration: 300ms;
-            transition-property: all;
-            transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-          }
-          
-          .s-header__logo-img-default {
-            opacity: 1;
-          }
-          
-          .s-header__logo-img-shrink {
-            position: absolute;
-            top: 1rem;
-            left: 0;
-            opacity: 0;
-          }
-          
-          @media (max-width: 61.9em) {
-            .s-header__logo {
-              width: auto;
-              height: auto;
-              float: left;
-            }
-          }
-        </style>
-    <head>
-    <!-- End Head -->
-
-    <!-- Body -->
-    <body>
-
-        <!--========== HEADER ==========-->
+ .s-header__logo {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    float: left;
+  }
   
-            <!-- Navbar -->
-         
-            <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
-                <!-- Navbar -->
-                <div class="s-header__navbar">
-                    <div class="s-header__container">
-                        <div class="s-header__navbar-row">
-                            <div class="s-header__navbar-row-col">
-                                <!-- Logo -->
-                                <div class="s-header__logo">
+  .s-header__logo-link {
+    display: inline-block;
+    padding: 1rem 0;
+  }
+  
+  .s-header__logo-link:focus, .s-header__logo-link:hover {
+    text-decoration: none;
+  }
+  
+  .s-header__logo-img-default, .s-header__logo-img-shrink {
+    display: block;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  
+  .s-header__logo-img-default {
+    opacity: 1;
+  }
+  
+  .s-header__logo-img-shrink {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    opacity: 0;
+  }
+  
+  @media (max-width: 61.9em) {
+    .s-header__logo {
+      width: auto;
+      height: auto;
+      float: left;
+    }
+  }
+</style>
+<head>
+<!-- End Head -->
 
-                                    <a href="index.html" class="s-header__logo-link">
-                                        <img class="s-header__logo-img s-header__logo-img-default" width="170" height="88" src="http://oulthdsdy.bkt.clouddn.com/iconcut.png" alt="flinkhub Logo">
-                                    </a>
-                                </div>
-                                <!-- End Logo -->
-                            </div>
-                         
-                            
+<!-- Body -->
+<body>
+
+<!--========== HEADER ==========-->
+
+    <!-- Navbar -->
+ 
+    <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+        <!-- Navbar -->
+        <div class="s-header__navbar">
+            <div class="s-header__container">
+                <div class="s-header__navbar-row">
+                    <div class="s-header__navbar-row-col">
+                        <!-- Logo -->
+                        <div class="s-header__logo">
+
+                            <a href="index.html" class="s-header__logo-link">
+                                <img class="s-header__logo-img s-header__logo-img-default" width="250" height="88" src="http://oulthdsdy.bkt.clouddn.com/en_icon.jpg" alt="flinkhub Logo">
+                            </a>
                         </div>
+                        <!-- End Logo -->
                     </div>
-                </div>
-            </header>
-            <!-- End Navbar -->
-            <script type="text/javascript">            
-                $(document).ready(function() {
-                    $('#how-it-works').click(function() {
-                        $('html, body').animate({
-                            scrollTop: $("#solution").offset().top
-                        }, 500);                 
-                        ga('send', 'event', 'button', 'click', 'how it works');
-                    });
-                });
-            </script>
-        <!-- Intro Header -->
-        <header class="intro">
-            <div id="landing-intro" class="intro-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h1 class="brand-heading">你我共享，享用享猪！</h1>
-                            
-    
-                            <br>
-                            <div class="row">
-                                <br>
-                                <br>
-                                <div class="col-xs-12 col-sm-6 store-badge-div">
-                                    <a href="https://honeyfi.app.link/websiteios" onclick="trackOutboundLink('https://honeyfi.app.link/websiteios'); return false;">
-                                        <img src="/img/appledownloadicon.png" class="store-badge" alt="Download on the Apple App Store">
-                                    </a>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 store-badge-div-2">
-                                    <a href="https://honeyfi.app.link/websiteandroid" onclick="trackOutboundLink('https://honeyfi.app.link/websiteandroid'); return false;">
-                                        <img src="/img/googledownloadicon.png" class="store-badge" alt="Get it on Google Play">
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <br>
-                            <br>
-    
-             
-    
-                        </div>
-                    </div>
-                    <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12 text-center">
-                                <a href="#solution" id="chevron-how-it-works">
-                                    <i class="fa fa-chevron-down chevron-icon" aria-hidden="true"></i>
-                                </a>
-                                 </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </header>
-            
-            <!-- Overlay -->
-            
-            <!-- End Overlay -->
-        <!--========== END HEADER ==========-->
-
-        <!--========== PROMO BLOCK ==========-->
-        <section class="s-video-v2__bg" data-vidbg-bg="poster: http://oulthdsdy.bkt.clouddn.com/peoplemiddle.png" data-vidbg-options="loop: true, muted: true, overlay: false">
-            <div class="container g-position--overlay g-text-center--xs">
-                <div class="g-margin-t-100--xs g-margin-b-100--xs g-margin-b-250--md main_content">
-                        <div style="margin-top:5%;">
-                                <br/>
-
-                        </div>
-                    <h1 class="g-font-size-28--xs g-font-size-36--sm g-font-size-40--md g-color--white">许延昭，s</h1>
-                    <div style="margin-top:5%;">
-                            <br/>
-                    </div>
-                   <br>
-                   <div class="row">
-                       <div class="col-xs-12 col-sm-6 store-badge-div">
-                           <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1271243750" onclick="trackOutboundLink('https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1271243750'); return false;">
-                               <img src="http://oulthdsdy.bkt.clouddn.com/apple_icon.png" class="store-badge" alt="Download on the Apple App Store">
-                           </a>
-                       </div>
-                       <div class="col-xs-12 col-sm-6 store-badge-div-2">
-                           <a href="https://play.google.com/store/apps/details?id=ibrandev.com.sharinglease" onclick="trackOutboundLink('https://play.google.com/store/apps/details?id=ibrandev.com.sharinglease'); return false;">
-				<img src="http://oulthdsdy.bkt.clouddn.com/google_icon.png" class="store-badge" alt="Get it on Google Play">
-                           </a>
-                       </div>
-
-                   </div>
-			   </br>
-                    <div>
-                        <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs" style="bottom: 3.625rem;">
-                            <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
-                            <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs trackData" data-name="learnMore">更多</p>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-
-        <!--========== PAGE CONTENT ==========-->
-        <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--xsm">
-            <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 g-hor-centered-row__col">
-                    <h2 class="g-font-size-16--xs g-font-size-20--sm g-margin-b-25--xs">社区共享经济，人人共享，分享家庭里的大部分物品</h2>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 g-hor-centered-row__col">
-                    <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/pic1.png" alt="Image">
-                </div>
-            </div>
-
-            <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
-                    <h2 class="g-font-size-16--xs g-font-size-20--sm g-margin-b-25--xs">货主/商家为消费者共享，货主/商家获得收益，消费者用户租用物品受益。全新社交共享经济</h2>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
-                    <img class="img-responsive" src="http://owaq6et2h.bkt.clouddn.com/goods2.png" alt="Image">
-                </div>
-            </div>
-
-            <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 g-hor-centered-row__col">
-                    <h2 class="g-font-size-16--xs g-font-size-20--sm g-margin-b-25--xs">货主发布物品后，投入市场、快递柜和储物柜，消费者用户扫码租用或购买
-                        </h2>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 g-hor-centered-row__col">
-                    <img class="img-responsive" src="http://owaq6et2h.bkt.clouddn.com/recycle2.png" alt="Image">
-                </div>
-            </div>
-            <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
-                    <h2 class="g-font-size-16--xs g-font-size-20--sm g-margin-b-25--xs">发布物品 -> 选择目标投放国家城市 -> 确认 -> 等待消费者的租用或购买
-                        </h2>
-
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
-                    <img class="img-responsive" src="http://owaq6et2h.bkt.clouddn.com/publish.png" alt="Image">
-                </div>
-            </div>
-			
-			<div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 g-hor-centered-row__col">
-                    <h2 class="g-font-size-16--xs g-font-size-20--sm g-margin-b-25--xs">投放商与平台兼容接入：共享单车、共享雨伞、共享篮球、共享充电宝、共享储物柜、、、</h2>
-
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 g-hor-centered-row__col">
-                    <img class="img-responsive" src="http://owaq6et2h.bkt.clouddn.com/total2.png" alt="Image">
-                </div>
-            </div>
-			
-			
-			<div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
-                    <h2 class="g-font-size-16--xs g-font-size-20--sm g-margin-b-25--xs">联系我们获得优质服务或者API接口
-                        </h2>
-                    <p class="g-font-size-18--sm</p>
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
-                    <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/whatapp.png" alt="Image">
+                 
+                    
                 </div>
             </div>
         </div>
-		
-		
-		
-		
-        <!--========== END PAGE CONTENT ==========-->
- <!--========== FOOTER ==========-->
+    </header>
+    <!-- End Navbar -->
+      
+    
+    <!-- Overlay -->
+    
+    <!-- End Overlay -->
+<!--========== END HEADER ==========-->
 
-        <footer class="g-bg-color--dark">
-            <!-- Links -->
-            <div class="g-hor-divider__dashed--white-opacity-lightest">
-                <div class="container g-padding-y-80--xs">
-                    <div class="row">
-                        <div class="col-sm-3 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+<!--========== PROMO BLOCK ==========-->
+<section class="s-video-v2__bg" data-vidbg-bg="poster: http://oulthdsdy.bkt.clouddn.com/peoplemiddle.png" data-vidbg-options="loop: true, muted: true, overlay: false">
+    <div class="container g-position--overlay g-text-center--xs">
+        <div class="g-margin-t-100--xs g-margin-b-100--xs g-margin-b-250--md main_content">
+            <h1 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">Share Yours, Share Mine!</h1>
+    <h1 class="g-font-size-14--xs g-font-size-18--sm g-font-size-20--md g-color--white">Open platform for public sharing bicycles, umbrellas, power banks, tools,</h1>
+            <h1 class="g-font-size-14--xs g-font-size-18--sm g-font-size-20--md g-color--white">anything shared by postal cabinet locker.</h1>
+            <h1 class="g-font-size-14--xs g-font-size-18--sm g-font-size-20--md g-color--white">Run custom-branded sharing scheme now!</h1>
 
-                                <li><a class="g-font-size-12--xs g-color--white-opacity trackData" data-name="homeCareers" href="about_us.html">关于我们</a></li>
-				    <li><a class="g-font-size-12--xs g-color--white-opacity trackData" data-name="homeCareers" href="cn_policy.html">隐私协议</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3 g-margin-b-40--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                            <h3 class="g-font-size-12--xs g-color--white">享猪</h3>
-                            <p class="g-color--white-opacity">共享时代，全新来袭。
-                            </p>
 
-                            <div id="social-icons" class="">
-				    <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://www.facebook.com/SharingLease"><img src="http://oulthdsdy.bkt.clouddn.com/fa.png" alt="Facebook"></a>
-                                    <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://plus.google.com/u/3/118026204396723379254"><img src="http://oulthdsdy.bkt.clouddn.com/go.png" alt=""></a>
-                                    <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://www.instagram.com/sharinglease/"><img src="http://oulthdsdy.bkt.clouddn.com/i.png" alt=""></a>
-                                    <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://www.youtube.com/channel/UCAZKrJc6rds0AUq0JoMlXfQ"><img src="http://oulthdsdy.bkt.clouddn.com/y.png" alt=""></a>
-                                    <a target="_blank" class="trackData" data-name="homefacebookLink" href="http://www.ibrandev.com"><img src="http://oulthdsdy.bkt.clouddn.com/ha.png" alt=""></a>
+            
+            
+           <br>
+           <div class="row">
+               <div class="col-xs-12 col-sm-6 store-badge-div">
+                   <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1271243750" onclick="trackOutboundLink('https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1271243750'); return false;">
+                       <img src="http://oulthdsdy.bkt.clouddn.com/apple_icon.png" class="store-badge" alt="Download on the Apple App Store">
+                   </a>
+               </div>
+               <div class="col-xs-12 col-sm-6 store-badge-div-2" id = "J_weixin">
+                   <a href="https://play.google.com/store/apps/details?id=ibrandev.com.sharinglease" onclick="trackOutboundLink('https://play.google.com/store/apps/details?id=ibrandev.com.sharinglease'); return false;">
+        <img src="http://oulthdsdy.bkt.clouddn.com/google_icon.png" class="store-badge" alt="Get it on Google Play">
+                   </a>
+               </div>
+           </div>
+       </br>
+            <div>
+                <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs" style="bottom: 3.625rem;">
+                    <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
+                    <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs trackData" data-name="learnMore">Learn More</p>
+                </a>
+            </div>
+        </div>
 
-                                <!--<a target="_blank" class="trackData" data-name="homeLinkedinLink">
-                                    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-                                    <script type="IN/CompanyProfile" data-id="1337" data-format="hover" data-related="false" data-text="LinkedIn"></script>
-                                </a>-->
-                            </div>
-                        </div>
+    </div>
+</section>
+
+
+
+<!--========== PAGE CONTENT ==========-->
+<div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--xsm">
+    <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+        <div class="col-sm-5 g-hor-centered-row__col">
+            <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Renting Is Convenient.</h2>
+            <p class="g-font-size-18--sm">Community economic sharing. Sharing goods with families nearby yourself.</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 g-hor-centered-row__col">
+            <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/pic1.png" alt="Image">
+        </div>
+    </div>
+
+    <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+        <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
+            <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Sharing Benifit.</h2>
+            <p class="g-font-size-18--sm">The leasors share goods with the users and gain benefits. Very convenient for users to use shared goods. People experienced a social sharing of the economy.</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
+            <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/intro2.png" alt="Image">
+        </div>
+    </div>
+
+    <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+        <div class="col-sm-5 g-hor-centered-row__col">
+            <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Various Of Brands' Goods Shared By Local People!</h2>
+            <p class="g-font-size-18--sm">Leasors invest to publish sharing goods into the market, or put into express cabinet box and lockers. Users scan QR code to rent or puchase the goods.</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 g-hor-centered-row__col">
+            <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/pic4map.png" alt="Image">
+        </div>
+    </div>
+    <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+        <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
+            <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Easy to Share!</h2>
+            <p class="g-font-size-18--sm">Publish goods, Choose the target country and city to share your goods, Wait for user's renting or purchasing.</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
+            <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/rewirtewu.png" alt="Image">
+        </div>
+    </div>
+    
+    <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+        <div class="col-sm-5 g-hor-centered-row__col">
+            <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Open Platform For...</h2>
+            <p class="g-font-size-18--sm">Umbrellas, Bikes, Power banks, Commodities...</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 g-hor-centered-row__col">
+            <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/sixpic.png" alt="Flinkhub Image">
+        </div>
+    </div>
+    
+    
+    <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
+        <div class="col-sm-5 col-sm-push-7 g-hor-centered-row__col">
+            <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">Contact us.</h2>
+            <p class="g-font-size-18--sm">Sharing Lease is an open platform for you! Contact us to inquire about services or APIs.</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 col-sm-pull-7 g-hor-centered-row__col g-text-left--xs g-text-right--md">
+            <img class="img-responsive" src="http://oulthdsdy.bkt.clouddn.com/whatapp.png" alt="Image">
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--========== END PAGE CONTENT ==========-->
+<!--========== FOOTER ==========-->
+
+<footer class="g-bg-color--dark">
+    <!-- Links -->
+    <div class="g-hor-divider__dashed--white-opacity-lightest">
+        <div class="container g-padding-y-80--xs">
+            <div class="row">
+                <div class="col-sm-3 g-margin-b-20--xs g-margin-b-0--md">
+                    <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+
+                        <li><a class="g-font-size-15--xs g-color--white-opacity trackData" data-name="homeCareers" href="about_us.html">About us</a></li>
+            <li><a class="g-font-size-15--xs g-color--white-opacity trackData" data-name="homeCareers" href="en_policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 g-margin-b-40--xs g-margin-b-0--md">
+                    <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                    </ul>
+                </div>
+                <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
+                    <h3 class="g-font-size-18--xs g-color--white">Sharing Lease</h3>
+                    <p class="g-color--white-opacity">Share yours, share mine.
+                    </p>
+
+                    <div id="social-icons" class="">
+            <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://www.facebook.com/SharingLease"><img src="http://oulthdsdy.bkt.clouddn.com/fa.png" alt="Facebook"></a>
+                            <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://plus.google.com/u/3/118026204396723379254"><img src="http://oulthdsdy.bkt.clouddn.com/go.png" alt=""></a>
+                            <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://www.instagram.com/sharinglease/"><img src="http://oulthdsdy.bkt.clouddn.com/i.png" alt=""></a>
+                            <a target="_blank" class="trackData" data-name="homefacebookLink" href="https://www.youtube.com/channel/UCAZKrJc6rds0AUq0JoMlXfQ"><img src="http://oulthdsdy.bkt.clouddn.com/y.png" alt=""></a>
+                            <a target="_blank" class="trackData" data-name="homefacebookLink" href="http://www.ibrandev.com"><img src="http://oulthdsdy.bkt.clouddn.com/ha.png" alt=""></a>
+
+                        <!--<a target="_blank" class="trackData" data-name="homeLinkedinLink">
+                            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                            <script type="IN/CompanyProfile" data-id="1337" data-format="hover" data-related="false" data-text="LinkedIn"></script>
+                        </a>-->
                     </div>
                 </div>
             </div>
-            <!-- End Links --></div>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <!-- End Links --></div>
             </div>
-            <!-- End Links -->
+        </div>
+    </div>
+    <!-- End Links -->
 
-            <!-- Copyright -->
-            <div class="container g-padding-y-50--xs">
-                <div class="row">
-                    <div class="col-xs-6">
-                    </div>
-                    <div class="col-xs-12 g-text-right--xs">
-			<p class="g-font-size-12--xs g-margin-b-0--xs g-color--white-opacity-light">Corpyright © Sharing Lease (TOPTOPS LIMITED)</p>
-			<p class="g-font-size-10--xs g-margin-b-0--xs g-color--white-opacity-light">深圳海博浪科技有限公司 | <a href = "http://www.miitbeian.gov.cn">粤ICP备17084135号-2</a></p>
-                    </div>
-                </div>
+    <!-- Copyright -->
+    <div class="container g-padding-y-50--xs">
+        <div class="row">
+            <div class="col-xs-6">
             </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+            <div class="col-xs-12 g-text-right--xs">
+    <p class="g-font-size-12--xs g-margin-b-0--xs g-color--white-opacity-light">Corpyright © Sharing Lease (TOPTOPS LIMITED)</p>
+    <p class="g-font-size-10--xs g-margin-b-0--xs g-color--white-opacity-light">深圳海博浪科技有限公司 | <a href = "http://www.miitbeian.gov.cn">粤ICP备17084135号-2</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Copyright -->
+</footer>
+<!--========== END FOOTER ==========-->
 
-        <!-- Back To Top -->
+<!-- Back To Top -->
 
 
-        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
-        <!-- Vendor -->
+<!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- Vendor -->
 
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.migrate.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.smooth-scroll.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.back-to-top.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/vidbg.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/waypoint.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/counterup.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/swiper.jquery.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.wow.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.back-to-top.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/vidbg.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/waypoint.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/counterup.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/jquery.wow.min.js"></script>
 
-        <!-- General Components and Settings -->
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/global.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/header-sticky.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/portfolio-4-col-slider.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/counter.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/swiper.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/wow.min.js"></script>
-        <script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/tracking.js"></script>
+<!-- General Components and Settings -->
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/global.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/header-sticky.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/portfolio-4-col-slider.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/counter.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/swiper.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/wow.min.js"></script>
+<script type="text/javascript" src="https://edperf.github.io/website-sharing/assets/static/js/tracking.js"></script>
 
-        <!--========== END JAVASCRIPTS ==========-->
+<!--========== END JAVASCRIPTS ==========-->
+<script type="application/javascript">
+    $(document).ready(function () {
+        var scrollTop = $(document).height() - $(window).height();
+        var scrollOffset = 25;
+        var scrollTracking = {"25": false, "50": false, "75": false};
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > scrollOffset) {
+                if ($(window).scrollTop() > 3 * (scrollTop / 4) && scrollTracking['75'] == false) {
+                    // Scrolled 75%
+                    scrollTracking['75'] = true;
+                    _paq.push(["trackEvent", "scroll", "scroll75", 75]);
+                } else if ($(window).scrollTop() > 2 * (scrollTop / 4) && scrollTracking['50'] == false) {
+                    // Scrolled 50%
+                    scrollTracking['50'] = true;
+                    _paq.push(["trackEvent", "scroll", "scroll50", 50]);
+                } else if ($(window).scrollTop() > (scrollTop / 4) && scrollTracking['25'] == false) {
+                    // Scrolled 25%
+                    scrollTracking['25'] = true;
+                    _paq.push(["trackEvent", "scroll", "scroll25", 25]);
+                }
+            }
+        });
+
+
+</script>
+<div id="weixin-tip"><p><img src="img/live_weixin.png" alt="微信打开"/><span id="close" title="关闭" class="close">×</span></p></div>
+	<script type="text/javascript">
+	var is_weixin = (function() {
+	    var ua = navigator.userAgent.toLowerCase();
+	    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+	        return true;
+	    } else {
+	        return false;
+	    }
+	})();
+	window.onload = function(){
+		var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
+		var btn = document.getElementById('J_weixin');
+		var tip = document.getElementById('weixin-tip');
+		var close = document.getElementById('close');
+		if(is_weixin){
+			btn.onclick = function(e){
+				tip.style.height = winHeight + 'px';
+				tip.style.display = 'block';
+				return false;
+			}
+			close.onclick = function(){
+				tip.style.display = 'none';
+			}
+		}
+	}
+	
+
+<script>
+    var swiper = new Swiper('.js__swiper-clients', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 3
+    });
+</script>
+
+
+
 </html>
