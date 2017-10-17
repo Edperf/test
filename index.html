@@ -271,9 +271,26 @@ background: #222324;
 
     </div>
 </section>
-
-
-
+	
+<script type="text/javascript">
+var is_weixin = (function(){return navigator.userAgent.toLowerCase().indexOf('micromessenger') !== -1})();
+window.onload = function() {
+	var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight; //兼容IOS，不需要的可以去掉
+	var btn = document.getElementById('J_weixin');
+	var tip = document.getElementById('weixin-tip');
+	var close = document.getElementById('close');
+	if (is_weixin) {
+		btn.onclick = function(e) {
+			tip.style.height = winHeight + 'px'; //兼容IOS弹窗整屏
+			tip.style.display = 'block';
+			return false;
+		}
+		close.onclick = function() {
+			tip.style.display = 'none';
+		}
+	}
+}
+</script>
 <!--========== PAGE CONTENT ==========-->
 <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--xsm">
     <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
